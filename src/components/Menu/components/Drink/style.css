@@ -1,32 +1,4 @@
-.menu-intro {
-  max-width: 20rem;
-  margin: 0 auto 0 auto;
-  text-align: center;
-}
-
-.drinks-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  justify-content: center;
-  justify-items: center;
-  grid-gap: 1rem;
-
-  margin: 4rem 0;
-}
-
-.order-detail {
-  margin: 2rem auto 6rem auto;
-  padding: 1rem 2rem;
-  max-width: 20rem;
-  text-align: center;
-
-  background-color: #ea946f;
-  border-radius: 5px;
-  box-shadow: 0 0 3px #444;
-}
-
-
-/* .drink {
+.drink {
   width: 20rem;
 }
 
@@ -82,10 +54,9 @@
 
 .order-btn:active {
   background-color: #e67e51;
-} */
+}
 
-
-/* .layer {
+.layer {
   display: flex;
   padding: 0.25rem;
 }
@@ -104,4 +75,4 @@
   height: 1rem;
 
   line-height: 1rem;
-} */
+}

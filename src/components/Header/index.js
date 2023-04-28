@@ -27,5 +27,11 @@ export const Header = () => {
     navRollout.classList.toggle('nav-closed');
   });
 
+  // připojte posluchač události click na položky navigace
+  const navItems = navRollout.querySelectorAll('a');
+  navRollout.addEventListener('click', () => {
+    navRollout.classList.add('nav-closed');
+  });
+
   return element;
 };
