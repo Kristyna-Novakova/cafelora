@@ -19,16 +19,16 @@ export const Header = () => {
     </div>
   `;
 
-  // vyberte ikonku .nav-btn a připojte k ní posluchač události click
+  // Posluchač události click
   const navBtn = element.querySelector('.nav-btn');
   const navRollout = element.querySelector('.rollout-nav');
   navBtn.addEventListener('click', () => {
-    // přidej nebo odeber třídu nav-closed
+    // přidat nebo odebrat třídu nav-closed
     navRollout.classList.toggle('nav-closed');
   });
 
-  // připojte posluchač události click na položky navigace
-  const navItems = navRollout.querySelectorAll('a');
+  // Posluchač události click na položky navigace
+  // Posluchač události click na položky navigace
   navRollout.addEventListener('click', () => {
     navRollout.classList.add('nav-closed');
   });

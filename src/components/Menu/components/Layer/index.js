@@ -1,6 +1,6 @@
 import './style.css';
 
-export const Layer = () => {
+export const Layer = (props) => {
   const { color, label } = props;
 
   const element = document.createElement('div');
