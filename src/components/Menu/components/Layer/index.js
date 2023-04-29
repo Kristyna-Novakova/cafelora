@@ -1,3 +1,5 @@
+import './style.css';
+
 export const Layer = () => {
   const { color, label } = props;
 
