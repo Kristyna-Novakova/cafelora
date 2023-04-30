@@ -51,6 +51,7 @@ export const Drink = (props) => {
   };
 
   ///Posluchač události
+
   element.querySelector('.order-btn').addEventListener('click', handleClick);
 
   return element;
