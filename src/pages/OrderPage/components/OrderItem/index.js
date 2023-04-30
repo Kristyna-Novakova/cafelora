@@ -2,14 +2,11 @@ export const OrderItem = (props) => {
   const { name, image } = props;
 
   const element = document.querySelector('div');
-  element.classList.add('order__items');
+  element.classList.add('order__item');
   element.innerHTML = `
-        <div class="order-item">
-          <img src="${image}" class="order-item__image">
-          <div class="order-item__name">
-            ${name}
-          </div>
-        </div>  
-  `;
+  <img src="${image}" class="order-item__image">
+  <div class="order-item__name">${name}</div>
+`;
+
   return element;
 };
