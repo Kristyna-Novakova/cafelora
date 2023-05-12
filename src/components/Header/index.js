@@ -42,7 +42,7 @@ export const Header = (props) => {
           <div class="site-logo"></div>
 
           <nav class="inline-nav">
-            <a href=".">Hlavní stránka</a>
+            <a href= BASE_PATH + '/'>Hlavní stránka</a>
           </nav>
 
         </div>
