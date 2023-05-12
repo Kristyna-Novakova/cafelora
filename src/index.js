@@ -15,8 +15,8 @@ console.log('funguju!');
 
 const { pathname } = window.location;
 
-if (pathname === '/') {
+if (pathname === BASE_PATH + '/') {
   document.querySelector('#app').append(HomePage());
-} else if (pathname === '/objednavka') {
+} else if (pathname === BASE_PATH + '/objednavka') {
   document.querySelector('#app').append(OrderPage());
 }
